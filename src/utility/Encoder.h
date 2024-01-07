@@ -49,7 +49,7 @@
 #define PIN_TO_BITMASK(pin)         (digitalPinToBitMask(pin))
 #define DIRECT_PIN_READ(base, mask) (((*(base)) & (mask)) ? 1 : 0)
 
-#define CORE_NUM_INTERRUPT 48
+#define CORE_NUM_INTERRUPT 42
 #define CORE_INT0_PIN      0
 #define CORE_INT1_PIN      1
 #define CORE_INT2_PIN      2
@@ -83,13 +83,7 @@
 // ESP32-S3 has GPIO 40 through 48 available
 #define CORE_INT40_PIN 40
 #define CORE_INT41_PIN 41
-#define CORE_INT42_PIN 42
-#define CORE_INT43_PIN 43
-#define CORE_INT44_PIN 44
-#define CORE_INT45_PIN 45
-#define CORE_INT46_PIN 46
-#define CORE_INT47_PIN 47
-#define CORE_INT48_PIN 48
+
 
 #endif
 
